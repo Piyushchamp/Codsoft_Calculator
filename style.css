@@ -1,0 +1,45 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.main{
+  margin-top: 10px;
+}
+
+.row button{
+  padding: 17px;
+  margin: 9px;
+  border: 2px solid black;
+  border-radius: 10px;
+  box-shadow: 2px 2px rgba(0, 0, 0, 0.427);
+  font-size: 1.5rem;
+  width: 60px;
+}
+
+.text{
+  padding: 10px;
+  margin: 0 10px;
+  height: 2rem;
+  width: 280px;
+  border: 2px solid black;
+  border-radius: 10px;
+  font-size: 1.2rem;
+}
+
+.clear{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.clear button{
+  width: 100px;
+}
